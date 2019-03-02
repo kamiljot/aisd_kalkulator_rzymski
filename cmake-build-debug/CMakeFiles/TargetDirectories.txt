@@ -1,0 +1,3 @@
+C:/Users/pszemek/CLionProjects/aisd_kalkulator_rzymski/cmake-build-debug/CMakeFiles/aisd_kalkulator_rzymski.dir
+C:/Users/pszemek/CLionProjects/aisd_kalkulator_rzymski/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pszemek/CLionProjects/aisd_kalkulator_rzymski/cmake-build-debug/CMakeFiles/rebuild_cache.dir
