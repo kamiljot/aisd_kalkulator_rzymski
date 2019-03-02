@@ -2,6 +2,12 @@
 using namespace std;
 //Compiler version g++ 6.3.0
 
+int string_lenght(char roman[]){
+    int l = 0;
+    while (roman[l] != '\0')
+        ++l;
+    return l;
+}
 
 int main()
 {
@@ -13,17 +19,9 @@ int l = 0;
 
 cin >> roman_a >> roman_b;
 
-while (roman_a[l] != '\0')
-++l;
+lenght_a = string_lenght(roman_a);
+lenght_b = string_lenght(roman_b);
 
-lenght_a = l;
-
-l = 0;
-
-while (roman_b[l] != '\0')
-++l;
-
-lenght_b = l;
 
 
 cout << lenght_a << " " << lenght_b << endl;
