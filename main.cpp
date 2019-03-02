@@ -51,26 +51,26 @@ int main()
 
     for (int i = 0; i < lenght_a; i++){
         ascii_a[i] = (int) roman_a[i];
-        /*test*/        cout << i << " " << ascii_a[i] << endl;
+        //test */         cout << i << " " << ascii_a[i] << endl;
     }
     for (int i = 0; i < lenght_b; i++){
         ascii_b[i] = (int) roman_b[i];
-        /*test */       cout << i << " " << ascii_b[i] << endl;
+        //test */         cout << i << " " << ascii_b[i] << endl;
     }
 
 
     for (int i = 0; i < lenght_a; i++){
         arabic_a[i] = roman_to_arabic(ascii_a[i]);
-        /*/test */       cout << i << " " << arabic_a[i] << endl;
+        //test */        cout << i << " " << arabic_a[i] << endl;
     }
 
     for (int i = 0; i < lenght_b; i++){
         arabic_b[i] = roman_to_arabic(ascii_b[i]);
-        /*/test */         cout << i << " " << arabic_b[i] << endl;
+        //test */         cout << i << " " << arabic_b[i] << endl;
     }
 
 
-    /*/test */     cout << lenght_a << " " << lenght_b << endl;
+    //test */      cout << lenght_a << " " << lenght_b << endl;
 
 
 
@@ -79,7 +79,7 @@ int main()
 
 
 
-    cout << sign << endl << roman_a << endl << roman_b;
+//test */    cout << sign << endl << roman_a << endl << roman_b;
 
 
 return 0;
